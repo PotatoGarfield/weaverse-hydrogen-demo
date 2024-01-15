@@ -31,7 +31,7 @@ export async function loader(args: RouteLoaderArgs) {
       pageType: AnalyticsPageType.home,
     },
     seo,
-  });
+  }); 
 }
 
 export default function Homepage() {
